@@ -1,0 +1,353 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #23324F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    padding: 10px;
+    background-color: #5F2167;
+}
+header h1{
+    color: #fff;
+}
+.contenedor{
+    margin: 0 auto;
+    width: 80%;
+}
+.header-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 25%; 
+    display: flex;
+    justify-content: flex-start;
+}
+.logo img{
+    width: 60%;
+}
+.logo-footer{
+    padding: 20px 0px;
+}
+.logo-footer img{
+    width: 40%;
+}
+.naranja{
+    color:#DA291C;
+}
+.morado{
+    background-color: #5F2167;
+}
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+  
+}
+nav a:hover{
+    color: #DA291C;
+}
+.sesion{
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+.sesion a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    
+}
+.sesion a:hover{
+    background-color: #DA291C;
+    border: 1px solid #DA291C;
+    text-decoration:none;
+}
+.sesion a span i{
+    margin-right: 3px;
+    color: #fff;
+}
+.slide{
+    background-image: url('../img/fondo1.jpg');
+    background-size: 100%;
+    background-position-y: 100%;
+    height: 92vh;
+    display: flex;
+    
+}
+.slogan{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 6%;
+    
+   
+}
+.slogan h2{
+    font-size: 2em;
+    /* color: #5F2167; */
+}
+#que-es{
+    display: flex;
+    padding: 10px 0px;;
+   
+}
+.que-es-cont{
+    display: flex;
+    align-items: center;
+
+}
+.top{
+    margin-top: 15px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+   
+    align-items: center;
+}   
+.tamaño{
+    font-size: 1.3em;
+}
+.tamaño2{
+    font-size: 1.2em;
+}
+.right{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#como-funciona{
+    background-color: rgb(233, 233, 233);
+    padding-bottom: 50px;
+   
+}
+.card-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background-color: #fff;
+    width: 23%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+.numero{
+    width: 65px;
+    height: 65px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #5F2167;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numero:hover{
+    background-color: #DA291C;
+}
+.numero h4 i{
+    color: #fff;
+    font-size: 1.5em;
+}
+.texto{
+    margin-top:30px;
+    text-align: center;
+    padding: 10px;
+}
+#beneficios{
+    padding-bottom: 40px;
+
+
+}
+.beneficios-cont{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.beneficios-item{
+    width: 33.3%;
+
+}
+.negrita{
+    font-weight: bold;
+    padding-top:20px;
+    font-size: 1.5em;
+
+}
+.p-item ul{
+    padding-left: 10px;
+}
+.icono {
+    padding: 10px;
+    background-color: #DA291C;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.icono:hover{
+    background-color: #5F2167;
+}
+.icono span i{
+    font-size: 5em;
+    color:#fff;
+}
+#planes{
+    background-color:rgb(233, 233, 233);
+    padding-bottom: 30px;
+}
+#planes .texto{
+    margin-top:0px;
+}
+#planes .viajeros{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+#planes .estudiantes{
+    width: 50%;
+
+}
+
+#planes .estudiantes h4{
+    margin-bottom: 30px;
+}
+.center{
+    text-align: center;
+}
+#planes .trabajadores{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+}
+.trabajadores img{
+    width: 80%;
+}
+.suscribete{
+    
+    background-color: fff;
+}
+.sub-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+.sub-cont a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #DA291C;
+    padding: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    width: 40%;
+
+    border-radius: 5px;
+    margin-top: 35px;
+}
+.sub-cont a:hover{
+    
+    color:#fff;
+}
+#preguntas{
+    background-color: rgb(233, 233, 233);
+    height: 450px;
+}
+#preguntas h3{
+    margin-bottom: 10px;
+}
+.p-item{
+    border-bottom: 1px solid;
+    padding: 10px;
+    margin: 0px 10px;
+}
+.p-item-n{
+    padding-bottom: 10px;
+    margin: 0px 10px;
+}
+.preguntas-cont{
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #5F2167;
+    
+}
+.footer-cont{
+    display: flex;
+}
+.izquierda{
+    width: 50%;
+}
+.izquierda h3{
+    color: #fff;
+    padding: 10px;
+}
+.derecha{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.terminos{
+    background-color: #DA291C;
+}
+.terminos-cont{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.terminos-cont a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0px 5px 15px;
+    font-size: 12px;
+}
+.terminos-cont a:hover{
+    color: #5F2167;
+}
+.terminos-foot{
+    display: flex;
+    align-items: center;
+}
+.foot-derecha{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-footer img{
+    width: 15%;
+    height: 60%;
+}
